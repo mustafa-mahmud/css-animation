@@ -17,9 +17,9 @@ and open the template in the editor.
         <!--[if lte IE 9]>
         <link href='/PATH/TO/FOLDER/css/animations-ie-fix.css' rel='stylesheet'>
         <![endif]-->
-        <title></title>
+        <title>1</title>
         <!----CSS----->
-        <link rel="stylesheet" href="css/" />
+        <link rel="stylesheet" href="css/1_backgroundChange.css" />
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/practise.css" />
         <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />
@@ -31,7 +31,7 @@ and open the template in the editor.
         <div class="container-fluid">
             <div class="row">
                 <div class="myAnimation m-5">
-                    <h1>Heading</h1>
+                    <h1>Heading 1</h1>
                 </div>
             </div>
         </div>

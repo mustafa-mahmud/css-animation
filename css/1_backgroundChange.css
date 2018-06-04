@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 4, 2018, 10:55:17 PM
+    Author     : MITHU
+*/
+
+.myAnimation{
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example{
+    from{background:red;}
+    to{background:yellow;}
+}

@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 4, 2018, 11:28:41 PM
+    Author     : MITHU
+*/
+
+.myAnimation{
+    width: 100px;
+    height: 100px;
+    background-color: olive;
+    animation-name: multipleCss;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    position: relative;
+}
+@keyframes multipleCss{
+    0%   {background-color:red;left:0px;top:0px;}
+    25%  {background-color:yellow;left:200px;top:0px;}
+    50%  {background-color:blue;left:200px;top:200px;}
+    75%  {background-color:green;left:0px;top:200px;}
+    100% {background-color:red;left:0px;top:0px;}
+}
+

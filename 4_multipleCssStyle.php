@@ -17,9 +17,9 @@ and open the template in the editor.
         <!--[if lte IE 9]>
         <link href='/PATH/TO/FOLDER/css/animations-ie-fix.css' rel='stylesheet'>
         <![endif]-->
-        <title></title>
+        <title>4</title>
         <!----CSS----->
-        <link rel="stylesheet" href="css/" />
+        <link rel="stylesheet" href="css/4_multipleCssStyle.css" />
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/practise.css" />
         <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />
