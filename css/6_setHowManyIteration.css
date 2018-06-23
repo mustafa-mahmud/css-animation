@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 5, 2018, 8:06:27 AM
+    Author     : MITHU
+*/
+
+.myAnimation{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+@keyframes example{
+    0%{background-color:red;left:0;top:0px;}
+    25%{background-color:blue;left:200px;top:0px;}
+    50%{background-color:olive;left:200px;top:200px;}
+    75%{background-color:green;left:0px;top:200px;}
+    100%{background-color:red;left:0px;top:0px;}
+}

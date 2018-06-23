@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 5, 2018, 8:06:27 AM
+    Author     : MITHU
+*/
+
+.myAnimation, .myAnimation2, .myAnimation3, .myAnimation4, .myAnimation5{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+.myAnimation{
+    animation-timing-function: ease;
+}
+.myAnimation2{
+    animation-timing-function: linear;
+}
+.myAnimation3{
+    animation-timing-function: ease-in;
+}
+.myAnimation4{
+    animation-timing-function: ease-out;
+}
+.myAnimation5{
+    animation-timing-function: ease-in-out;
+}
+@keyframes example{
+    From{left:0px}
+    To{left:500px}
+}
